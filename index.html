@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/EcoMar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Staatliches&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap">
+        <link rel="icon" href="IMG/logo.png">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="JS/review.js" defer></script>
+        <title>EcoMar</title>
+    </head>    
+<body>
+
+    <div class="containerLogo" id="logotext">
+        <img  class="logoTxt" src="IMG/logoText.png" alt="ECOMAR">
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+        </div>
+    </div>
+
+    <!-- CARROSSEL -->
+    <div class="carrosel">
+
+        <video autoplay muted loop class="background-video">
+            <source class="background" src="IMG/background.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos.
+        </video>
+        
+        
+            <img class="circleW" src="IMG/turtle.png" alt="">
+            <script src="JS/menu.js"></script>
+        <div id="menuToggle">
+                <label class="burger" for="burger">
+                    <input type="checkbox" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            <ul id="menu">
+                <img class="escrito" src="IMG/logoText.png" alt="">
+                <li id="l1"><a href="EcoMar.html" class="itens"><span class="material-symbols-outlined">home</span>HOME</a></li>
+                <li><a href="SobreNos.html#sobre" class="itens"><span class="material-symbols-outlined">groups</span> SOBRE NÓS</a></li>
+                <li><a href="SobreNos.html#contato" class="itens"><span class="material-symbols-outlined">contacts</span> CONTATO</a></li>
+                <li><a href="ComoAjudar.html#doar" class="itens"><span class="material-symbols-outlined">monetization_on</span> DOAR</a></li>
+            </ul>
+        </div>
+        
+
+        <div class="cards" id="scroll">
+            
+            <div class="nada">
+                <p class="roll">Role</p>
+                <div class="circle-mouse">
+                    <img class="mouse" src="IMG/mouse.gif" alt="scroll para baixo">
+                </div>
+                <div class="seta"></div>
+            </div>
+
+            <!-- PRIMEIRO CARD -->
+
+            <div class="card" id="first">
+                <a href="Atencao.html">
+                    <div class="img-card">
+                        <img class="cards-imgs" id="first1" src="IMG/card1.jpg" alt="Imagem do Card">
+                    </div>
+                    <div class="texts-card">
+                        <h2 class="title-card">Atenção à Poluição Marinha</h2>
+                        <p class="text-card">Aqui, exploraremos por que é crucial enterder a dimensão desse problema e nos mantermos informados e vigilantes sobre essa questão que vem agravando o Brasil ao longo dos anos.
+                            </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- SEGUNDO CARD -->
+            <div class="card" id="second">
+                <a href="Atencao.html#consequencias">
+                    <div class="img-card">
+                        <img class="cards-imgs" id="second1" src="IMG/card2.jpeg" alt="Imagem do Card">
+                    </div>
+                    <div class="texts-card">
+                        <h2 class="title-card">Consequências</h2>
+                        <p class="text-card">No Brasil, o acúmulo de resíduos ameaça a biodiversidade marinha e coloca espécies em risco de extinção. Descubra mais sobre como isso impacta nosso cotidiano e a importância de agir para proteger nossos oceanos.
+                            </p>
+                    </div>
+                </a>
+            </div>
+
+                        <!-- TERCEIRO CARD -->
+            <div class="card" id="third">
+                <a href="Solucoes.html">
+                    <div class="img-card">
+                        <img class="cards-imgs" id="third1" src="IMG/card3.jpg" alt="Imagem do Card">
+                    </div>
+                    <div class="texts-card">
+                        <h2 class="title-card">Soluções</h2>
+                        <p class="text-card">O combate à poluição marinha requer políticas públicas, inovação e ações individuais. O futuro dos oceanos depende de aprendermos com a natureza.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- QUARTO CARD -->
+            <div class="card" id="fourth">
+                <a href="ComoAjudar.html">
+                    <div class="img-card">
+                        <img  class="cards-imgs" id="fourth1" src="IMG/card4.jpg" alt="Imagem do Card">
+                    </div>
+                    <div class="texts-card">
+                        <h2 class="title-card">Junte-se à Causa</h2>
+                        <p class="text-card">Ajude contribuindo para a preservação dos oceanos. Com doações, voluntariado ou pequenas ações diárias, você faz a diferença!
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="transition">
+
+
+        <div class="wave" id="wave1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1320">
+                <!-- Primeiro SVG -->
+                <path fill="#FFFFFF" fill-opacity="1" d="M0,128L60,117.3C120,107,240,85,360,69.3C480,53,600,43,720,69.3C840,96,960,160,1080,170.7C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                <rect width="1440" height="1000" y="220" fill="#FFFFFF"></rect>
+            </svg>
+        </div>
+
+
+        <div class="wave" id="wave2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,128L60,117.3C120,107,240,85,360,69.3C480,53,600,43,720,69.3C840,96,960,160,1080,170.7C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                <rect width="1440" height="1000" y="220" fill="#0099ff"></rect> 
+            </svg>
+        </div>
+
+
+        <div class="wave" id="wave3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1320">
+                <path fill="#001F3F" fill-opacity="1" d="M0,128L60,117.3C120,107,240,85,360,69.3C480,53,600,43,720,69.3C840,96,960,160,1080,170.7C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                <rect width="1440" height="1000" y="220" fill="#001F3F"></rect> 
+            </svg>
+        </div>
+
+
+    </section>
+    
+    <script src="JS/transicao.js"></script>
+    <script src="JS/scrollX.js"></script>
+    <script src="JS/logoText.js"></script>
+    <script src="JS/menu.js"></script>
+    <script src="JS/indicacao.js"></script>
+
+</body>
+</html>
